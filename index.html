@@ -254,7 +254,7 @@
     <!-- PASTIKAN FAIL MP3 SAiz KECIK (<2MB) UNTUK ELAK LAG -->
     <audio id="bg-music" loop preload="none">
       <source
-        src="Music/DatoSudirmanBalikKampung.mp3"
+        src="Music/Dato Sudirman - Balik Kampung.mp3"
         type="audio/mpeg"
       />
     </audio>
@@ -276,15 +276,15 @@
             <p>✨✉️✨</p>
             <p><strong>Assalamualaikum & Salam Aidilfitri 2026</strong></p>
             <p>
-              Selamat Hari Raya Aidilfitri, Maaf Zahir Dan Batin. Di Hari Yang
-              Mulia ini, Saya Menyusun Sepuluh Jari Memohon Kemaafan Andai Ada
-              Kata Dan Tingkah Laku Saya Yang Mengguris Hati Dan Perasaan.
+              Selamat Hari Raya Aidiladha. Salam Maaf Zahir Dan Batin. Semoga 
+              Sambutan Aidiladha Yang Mulia Ini Membawa Kesejahteraan, Kejayaan
+              Dan Mengukuhkan Ikatan Silaturahim Di Antara Kita Semua.
             </p>
             <p>
               Di Hari Yang Mulia Ini Juga Saya Mendoakan Semoga Dipermudahkan
-              Segala Urusan Dan Diberi Keampunan Setelah Sebulan Kita Berpuasa,
+              Segala Urusan Dan Diberi Keberkatan Kepada Kita Semua,
             </p>
-            <p>🌟 Selamat Hari Raya Aidilfitri 🌟</p>
+            <p>🌟 Selamat Hari Raya Aidiladha 🌟</p>
             <p class="signature">- Keluarga, Sahabat Handai & Rakan Taulan -</p>
           </div>
         </div>
@@ -293,7 +293,7 @@
           🧧 DUIT RAYA
         </button>
 
-        <div class="footer-note">✨ JOHNNY BRAULIO @ APRIL 2026 ✨</div>
+        <div class="footer-note">✨ JOHNNY BRAULIO @ 27 MEI 2026 ✨</div>
       </div>
     </div>
 
@@ -603,7 +603,7 @@
       // GANTI 'GIF/raya-animation.gif' dengan nama fail GIF anda
       // PASTIKAN SAIZ GIF KECIK (<1MB) UNTUK ELAK LAG
       const gifDiv = document.getElementById("customGif");
-      gifDiv.style.backgroundImage = "url('GIF/RAYAAAA.gif')";
+      gifDiv.style.backgroundImage = "url('GIF/AIDILADHA.gif')";
       gifDiv.style.backgroundSize = "cover";
       gifDiv.style.backgroundPosition = "center";
       // ========== AKHIR BAHAGIAN TUAN ==========
@@ -626,13 +626,13 @@
       claimBtn.addEventListener("click", (e) => {
         e.preventDefault();
         ucapanEl.innerHTML =
-          "DUIT RAYA TIADA SEBAB KRISIS TIMUR TENGAH HEHEHE <br>🎉 Selamat Hari Raya! 🎉";
+          "DUIT RAYA TIADA SEBAB SELAT HORMUZ DITUTUP HEHEHE <br>🎉 Selamat Hari Raya! 🎉";
         burstFireworks(6);
 
         if (resetTimer) clearTimeout(resetTimer);
         resetTimer = setTimeout(() => {
           ucapanEl.innerHTML =
-            "🌙 Maaf Zahir & Batin 🌙<br>Semoga Aidilfitri ini membawa sinar kebahagiaan.";
+            "🌙 Maaf Zahir & Batin 🌙<br>Semoga Aidiladha ini membawa sinar kebahagiaan.";
         }, 4000);
 
         // Haptic feedback jika support (iOS/Android)
